@@ -22,5 +22,13 @@ final class HomeRouter: HomeRoutingLogic, HomeDataPassing {
     var dataMovie: HomeDataMovie?
     
     // MARK: - Navigation
-    func detailMovie() {}
+    func detailMovie() {
+        let movieDetail = MovieDetailViewController()
+        if let source = self.dataMovie {
+            if let viewController = viewController {
+                movieDetail.movie = source.movieSelected
+                viewController.show(movieDetail, sender: nil)
+            }
+        }
+    }
 }

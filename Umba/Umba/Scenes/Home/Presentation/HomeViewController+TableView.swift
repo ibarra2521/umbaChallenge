@@ -18,19 +18,11 @@ extension HomeViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: categoryID, for: indexPath) as? CategoryCell else { return UITableViewCell() }
-        
         let category = viewModel.categories[indexPath.section]
         cell.updateCell(category: category)
         cell.didSelectMovie = { [weak self] (categoryCell, index) in
-            print("categoryCell: \(categoryCell) - index: \(index)")
             guard let self = self else { return }
-            
-            //category.movies[index].imageMovieData = category
-            
-            
-            
             if let idxPathSection = self.mainTableView.indexPath(for: categoryCell) {
-                //categoryCell.
                 let idxPath = IndexPath(row: index, section: idxPathSection.section)
                 self.selectMovie(indexPath: idxPath)
             }
@@ -49,7 +41,7 @@ extension HomeViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 60.0 //MoviewHeader.headerHeight
+        return 60.0
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) { }

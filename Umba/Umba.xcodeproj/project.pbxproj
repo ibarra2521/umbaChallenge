@@ -33,6 +33,9 @@
 		41B50BDB26F024C100539886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B50BD926F024C100539886 /* LaunchScreen.storyboard */; };
 		41B50BE626F024C100539886 /* UmbaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B50BE526F024C100539886 /* UmbaTests.swift */; };
 		41B50BF126F024C100539886 /* UmbaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B50BF026F024C100539886 /* UmbaUITests.swift */; };
+		41EE7C9926F054940080B3F1 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41EE7C9726F054940080B3F1 /* MovieDetailViewController.xib */; };
+		41EE7C9A26F054940080B3F1 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE7C9826F054940080B3F1 /* MovieDetailViewController.swift */; };
+		41EE7C9C26F054C70080B3F1 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE7C9B26F054C70080B3F1 /* CircularView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +88,9 @@
 		41B50BEC26F024C100539886 /* UmbaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmbaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B50BF026F024C100539886 /* UmbaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmbaUITests.swift; sourceTree = "<group>"; };
 		41B50BF226F024C100539886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EE7C9726F054940080B3F1 /* MovieDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
+		41EE7C9826F054940080B3F1 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		41EE7C9B26F054C70080B3F1 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,7 @@
 		4120A58C26F03CF800F99DCD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				41EE7C9626F054700080B3F1 /* MovieDetail */,
 				4120A57D26F03CAF00F99DCD /* Home */,
 			);
 			path = Scenes;
@@ -184,6 +191,7 @@
 			children = (
 				4120A59726F0417300F99DCD /* Spinner.swift */,
 				4120A5AA26F0492100F99DCD /* ImageCache.swift */,
+				41EE7C9B26F054C70080B3F1 /* CircularView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -252,6 +260,15 @@
 				41B50BF226F024C100539886 /* Info.plist */,
 			);
 			path = UmbaUITests;
+			sourceTree = "<group>";
+		};
+		41EE7C9626F054700080B3F1 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				41EE7C9826F054940080B3F1 /* MovieDetailViewController.swift */,
+				41EE7C9726F054940080B3F1 /* MovieDetailViewController.xib */,
+			);
+			path = MovieDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EE7C9926F054940080B3F1 /* MovieDetailViewController.xib in Resources */,
 				4120A5A826F0463300F99DCD /* CategoryHeader.xib in Resources */,
 				41B50BDB26F024C100539886 /* LaunchScreen.storyboard in Resources */,
 				41B50BD826F024C100539886 /* Assets.xcassets in Resources */,
@@ -392,6 +410,7 @@
 				41B50BCF26F024C000539886 /* AppDelegate.swift in Sources */,
 				4120A58826F03CD900F99DCD /* HomeRouter.swift in Sources */,
 				4120A59A26F0419600F99DCD /* NetworkManager.swift in Sources */,
+				41EE7C9C26F054C70080B3F1 /* CircularView.swift in Sources */,
 				4120A58926F03CD900F99DCD /* HomeViewController.swift in Sources */,
 				4120A59326F03F2700F99DCD /* Movie.swift in Sources */,
 				4120A5A726F0463300F99DCD /* CategoryHeader.swift in Sources */,
@@ -400,6 +419,7 @@
 				4120A5A426F0463300F99DCD /* MovieCell.swift in Sources */,
 				41B50BD126F024C000539886 /* SceneDelegate.swift in Sources */,
 				4120A5AB26F0492100F99DCD /* ImageCache.swift in Sources */,
+				41EE7C9A26F054940080B3F1 /* MovieDetailViewController.swift in Sources */,
 				4120A59826F0417300F99DCD /* Spinner.swift in Sources */,
 				4120A59526F03F6000F99DCD /* Response.swift in Sources */,
 				4120A58A26F03CD900F99DCD /* HomeInteractor.swift in Sources */,
