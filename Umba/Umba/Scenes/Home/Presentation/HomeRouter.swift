@@ -7,15 +7,20 @@
 
 import UIKit
 
-@objc protocol HomeRoutingLogic {}
-
-protocol HomeDataPassing {
-    var dataStore: HomeDataStore? { get }
+@objc protocol HomeRoutingLogic {
+    func detailMovie()
 }
 
-class HomeRouter: NSObject, HomeRoutingLogic, HomeDataPassing {
+protocol HomeDataPassing {
+    var dataMovie: HomeDataMovie? { get }
+}
+
+final class HomeRouter: HomeRoutingLogic, HomeDataPassing {
     
     // MARK: - Properties
     weak var viewController: HomeViewController?
-    var dataStore: HomeDataStore?
+    var dataMovie: HomeDataMovie?
+    
+    // MARK: - Navigation
+    func detailMovie() {}
 }

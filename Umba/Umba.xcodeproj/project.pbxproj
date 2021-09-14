@@ -16,6 +16,16 @@
 		4120A58B26F03CD900F99DCD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4120A58426F03CD900F99DCD /* HomeViewController.xib */; };
 		4120A59326F03F2700F99DCD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A59226F03F2700F99DCD /* Movie.swift */; };
 		4120A59526F03F6000F99DCD /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A59426F03F6000F99DCD /* Response.swift */; };
+		4120A59826F0417300F99DCD /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A59726F0417300F99DCD /* Spinner.swift */; };
+		4120A59A26F0419600F99DCD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A59926F0419600F99DCD /* NetworkManager.swift */; };
+		4120A59C26F0449900F99DCD /* HomeViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A59B26F0449900F99DCD /* HomeViewController+TableView.swift */; };
+		4120A5A426F0463300F99DCD /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A59E26F0463300F99DCD /* MovieCell.swift */; };
+		4120A5A526F0463300F99DCD /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4120A59F26F0463300F99DCD /* CategoryCell.xib */; };
+		4120A5A626F0463300F99DCD /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4120A5A026F0463300F99DCD /* MovieCell.xib */; };
+		4120A5A726F0463300F99DCD /* CategoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A5A126F0463300F99DCD /* CategoryHeader.swift */; };
+		4120A5A826F0463300F99DCD /* CategoryHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4120A5A226F0463300F99DCD /* CategoryHeader.xib */; };
+		4120A5A926F0463300F99DCD /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A5A326F0463300F99DCD /* CategoryCell.swift */; };
+		4120A5AB26F0492100F99DCD /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120A5AA26F0492100F99DCD /* ImageCache.swift */; };
 		41B50BCF26F024C000539886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B50BCE26F024C000539886 /* AppDelegate.swift */; };
 		41B50BD126F024C000539886 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B50BD026F024C000539886 /* SceneDelegate.swift */; };
 		41B50BD326F024C000539886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B50BD226F024C000539886 /* ViewController.swift */; };
@@ -52,6 +62,16 @@
 		4120A58426F03CD900F99DCD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		4120A59226F03F2700F99DCD /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		4120A59426F03F6000F99DCD /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		4120A59726F0417300F99DCD /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		4120A59926F0419600F99DCD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4120A59B26F0449900F99DCD /* HomeViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+TableView.swift"; sourceTree = "<group>"; };
+		4120A59E26F0463300F99DCD /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		4120A59F26F0463300F99DCD /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		4120A5A026F0463300F99DCD /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		4120A5A126F0463300F99DCD /* CategoryHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeader.swift; sourceTree = "<group>"; };
+		4120A5A226F0463300F99DCD /* CategoryHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryHeader.xib; sourceTree = "<group>"; };
+		4120A5A326F0463300F99DCD /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		4120A5AA26F0492100F99DCD /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		41B50BCB26F024C000539886 /* Umba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B50BCE26F024C000539886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41B50BD026F024C000539886 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,7 +152,9 @@
 		4120A58F26F03EAD00F99DCD /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				4120A59D26F0462100F99DCD /* Views */,
 				4120A58226F03CD900F99DCD /* HomeViewController.swift */,
+				4120A59B26F0449900F99DCD /* HomeViewController+TableView.swift */,
 				4120A58426F03CD900F99DCD /* HomeViewController.xib */,
 				4120A58126F03CD900F99DCD /* HomeRouter.swift */,
 			);
@@ -143,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				4120A57F26F03CD900F99DCD /* HomeWorker.swift */,
+				4120A59926F0419600F99DCD /* NetworkManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -154,6 +177,28 @@
 				4120A59426F03F6000F99DCD /* Response.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		4120A59626F0415D00F99DCD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4120A59726F0417300F99DCD /* Spinner.swift */,
+				4120A5AA26F0492100F99DCD /* ImageCache.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4120A59D26F0462100F99DCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4120A5A326F0463300F99DCD /* CategoryCell.swift */,
+				4120A59F26F0463300F99DCD /* CategoryCell.xib */,
+				4120A5A126F0463300F99DCD /* CategoryHeader.swift */,
+				4120A5A226F0463300F99DCD /* CategoryHeader.xib */,
+				4120A59E26F0463300F99DCD /* MovieCell.swift */,
+				4120A5A026F0463300F99DCD /* MovieCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		41B50BC226F024C000539886 = {
@@ -179,6 +224,7 @@
 		41B50BCD26F024C000539886 /* Umba */ = {
 			isa = PBXGroup;
 			children = (
+				4120A59626F0415D00F99DCD /* Common */,
 				4120A58C26F03CF800F99DCD /* Scenes */,
 				41B50BCE26F024C000539886 /* AppDelegate.swift */,
 				41B50BD026F024C000539886 /* SceneDelegate.swift */,
@@ -311,9 +357,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4120A5A826F0463300F99DCD /* CategoryHeader.xib in Resources */,
 				41B50BDB26F024C100539886 /* LaunchScreen.storyboard in Resources */,
 				41B50BD826F024C100539886 /* Assets.xcassets in Resources */,
 				4120A58B26F03CD900F99DCD /* HomeViewController.xib in Resources */,
+				4120A5A526F0463300F99DCD /* CategoryCell.xib in Resources */,
+				4120A5A626F0463300F99DCD /* MovieCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,13 +387,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4120A5A926F0463300F99DCD /* CategoryCell.swift in Sources */,
 				41B50BD326F024C000539886 /* ViewController.swift in Sources */,
 				41B50BCF26F024C000539886 /* AppDelegate.swift in Sources */,
 				4120A58826F03CD900F99DCD /* HomeRouter.swift in Sources */,
+				4120A59A26F0419600F99DCD /* NetworkManager.swift in Sources */,
 				4120A58926F03CD900F99DCD /* HomeViewController.swift in Sources */,
 				4120A59326F03F2700F99DCD /* Movie.swift in Sources */,
+				4120A5A726F0463300F99DCD /* CategoryHeader.swift in Sources */,
 				4120A58726F03CD900F99DCD /* HomeUseCases.swift in Sources */,
+				4120A59C26F0449900F99DCD /* HomeViewController+TableView.swift in Sources */,
+				4120A5A426F0463300F99DCD /* MovieCell.swift in Sources */,
 				41B50BD126F024C000539886 /* SceneDelegate.swift in Sources */,
+				4120A5AB26F0492100F99DCD /* ImageCache.swift in Sources */,
+				4120A59826F0417300F99DCD /* Spinner.swift in Sources */,
 				4120A59526F03F6000F99DCD /* Response.swift in Sources */,
 				4120A58A26F03CD900F99DCD /* HomeInteractor.swift in Sources */,
 				4120A58626F03CD900F99DCD /* HomeWorker.swift in Sources */,

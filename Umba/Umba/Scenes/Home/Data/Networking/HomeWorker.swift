@@ -7,6 +7,11 @@
 
 import UIKit
 
-class HomeWorker {
-    func fetchingData() { }
+final class HomeWorker {
+    func fetchingData(category: TypeCategory?, request: HomeUseCases.Fetch.Request, completion: @escaping MovieResponseHandler) {
+        NetworkManager.shared.getMovies(category: category, request: request) { [weak self] result in
+            guard let _ = self else { return }
+            completion(result)
+        }
+    }
 }
