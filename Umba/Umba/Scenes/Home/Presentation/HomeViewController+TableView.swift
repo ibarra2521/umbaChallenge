@@ -41,7 +41,7 @@ extension HomeViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 60.0
+        return 20.0
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) { }
