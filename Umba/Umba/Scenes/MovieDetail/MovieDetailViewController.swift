@@ -31,7 +31,7 @@ final class MovieDetailViewController: UIViewController {
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.isTranslucent = true
         navigationController?.navigationBar.topItem?.backButtonDisplayMode = .minimal
-        
+        overrideUserInterfaceStyle = .dark
         
         ImageCache().load(imageUrl: "\(baseUrlImage)\(movie?.backdropPath ?? String())", completion: { [weak self] (image) in
             guard let self = self, let image = image else { return }

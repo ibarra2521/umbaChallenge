@@ -48,6 +48,7 @@ final class HomeViewController: UIViewController {
     
     func initialize() {
         setup()
+        overrideUserInterfaceStyle = .dark
         mainTableView.rowHeight = 200
         mainTableView.estimatedRowHeight = UITableView.automaticDimension
         mainTableView.register(UINib(nibName: categoryID, bundle: nil), forCellReuseIdentifier: categoryID)
